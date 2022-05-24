@@ -29,3 +29,5 @@ To reproduce our results in Table 1, run the following from the `Scripts` direct
 ```
 bash experiments.sh
 ```
+
+The KIM-Si dataset is private and is not ready for release. We will release it later.

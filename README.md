@@ -20,7 +20,7 @@ pytorch=1.7.1
  
 Download the Al-data.tgz data file from https://github.com/atomistic-ml/ani-al/blob/master/data/Al-data.tgz to the ```RawData/ANI-Al``` folder. We provide bash scripts in the ```Scripts``` folder to preprocess the raw dataset and to run experiments.
 
-To process the dataset into the extended xyz form, compute EIP energies using KIM, compute SOAP descriptors for the configurations, and construct graphs for the comfigurations, run
+To process the dataset into the extended xyz form, compute EIP energies using KIM, compute SOAP descriptors for the configurations, and construct graphs for the configurations, run
 ```
 bash preprocess.sh
 ```

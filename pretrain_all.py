@@ -139,7 +139,7 @@ def main():
     labels, counts = torch.unique(Dataset.ep_indices[Dataset.get_config_index(split_dict['val'])], return_counts=True)
     print(labels, counts)
 
-    split_dict['train'] = split_dict['train'] + split_dict['pretrain'] if args.entropy_lambda > 0 else split_dict['train']
+    split_dict['train'] = split_dict['pretrain'] if args.reg_lambda > args.cls_lambda else split_dict['train']
     split_id_dict = {key: Dataset.get_config_index(
         configs) for key, configs in split_dict.items()}
 

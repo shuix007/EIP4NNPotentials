@@ -1,6 +1,9 @@
 # Injecting Domain Knowledge from Empirical Interatomic Potentials to Neural Networks for Predicting Material Properties
 
-This is the code for our submission Injecting Domain Knowledge from Empirical Interatomic Potentials to Neural Networks for Predicting Material Properties to NeurIPS 2022.
+This is the code for our paper 
+ 
+**[Injecting Domain Knowledge from Empirical Interatomic Potentials to Neural Networks for Predicting Material Properties](https://arxiv.org/abs/2210.08047)**
+accepted at NeurIPS 2022.
 
 ## Requirement
 
@@ -30,4 +33,4 @@ To reproduce our results in Table 1, run the following from the `Scripts` direct
 bash experiments.sh
 ```
 
-The KIM-Si dataset is private and is not ready for release. We will release it later.
+The KIM-Si dataset is available in **[This link](https://figshare.com/articles/dataset/KIM-Si-training-set/21266064)**.
